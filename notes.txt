@@ -1,0 +1,28 @@
+x link files
+- build the html of the site and input
+
+
+- access the library api
+    x hardcode the category first
+
+    http://openlibrary.org/subjects/myster.json
+
+
+    x postman
+    - dig out the cover, title, author
+    - create the fetch
+    - write a function that takes in a string, and runs the api request
+
+x function that returns a random book
+    x is ebooks_count the real count? if so use it
+    x Math.floor(Math.random() * works.length)
+    x works[randomIndex]
+
+- preset the info from the api of the dom
+    -book cover, author, title
+    -build helper functions to generate the elements, and then append them
+
+- wire up the input later
+    - add a click listener to the button to:
+        - grab the input via a query selector & get its text
+        - pass to search function
